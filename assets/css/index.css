@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(236, 235, 235);
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  
+}
+.question{
+    background-color: rgb(221, 221, 217);
+    border: 1px solid rgb(10, 10, 10);
+}
