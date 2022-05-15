@@ -130,3 +130,14 @@ var myQuiz =[
     }
 
 ];
+
+// PLACE THE FUNCTIONS HERE
+
+function showQuiz(quiz,quizContainer){
+    var output = [];
+    var answers;
+}
+
+for (var i=0; i<questions.length; i++){
+    answers = [];
+}
