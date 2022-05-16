@@ -136,8 +136,36 @@ var myQuiz =[
 function showQuiz(quiz,quizContainer){
     var output = [];
     var answers;
+
+
+for (var i=0; i<quiz.length; i++){
+    answers = [];
+
+for (letter in quiz[i].answers){
+        answers.push(
+            'label'
+                + '<input type="radio" name="question'+i+'" value="'+letter+'">'
+                + letter + ': '
+                + quiz[i].answers[letter]
+
+            + '</label>'
+
+        );
+    
+    }
+
+    output.push(
+        '<div class = "question">' + quiz[i].question + '</div'
+        + '<div class="answers">' + answers.join('') + '</div>'
+
+    );
+}
+quizContainer.innerHTML = output.join('');
+
+
+
 }
 
-for (var i=0; i<questions.length; i++){
-    answers = [];
-}
+showQuiz(quiz, quizContainer);
+
+// function to calculate the result on quiz
