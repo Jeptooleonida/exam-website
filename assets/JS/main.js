@@ -192,3 +192,13 @@ showQuiz(quiz, quizContainer);
    resultContainer.innerHTML = numCorrect + 'out of' +quiz.length;
 
  }
+ // show results after submitting the questions
+ submitButton.onclick = function(){
+	showResults(quiz, quizContainer, resultsContainer);
+}
+
+//get elements from html
+
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
