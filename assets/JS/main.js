@@ -169,3 +169,26 @@ quizContainer.innerHTML = output.join('');
 showQuiz(quiz, quizContainer);
 
 // function to calculate the result on quiz
+ function result(quiz,quizContainer,resultContainer){
+     var answerContainer = quizContainer.querySelectorAll('.answers')
+
+     var userAnswer = '';
+     var numCorrect = 0;
+
+
+
+   for (var i=0; i<quiz.length; i++){
+       userAnswer = (answerContainer[i].querySelector('input[name=quiz '+i+']:checked')||{}).value;
+
+
+       if (userAnswer === quiz[i].correctAnswer){
+           numCorrect++;
+           answerContainer[i].style.color = 'blue';
+       }
+       else{
+           answerContainer[i].style.color = 'red';
+       }
+   }
+   resultContainer.innerHTML = numCorrect + 'out of' +quiz.length;
+
+ }
