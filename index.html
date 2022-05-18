@@ -8,37 +8,46 @@
     <title>JS Quiz</title>
 </head>
 <body>
+    <p>Good luck</p>
     <div class="quiz">
-        <div class="score">
-           <span id="user-score">0</span>
-           <span>/</span>
-           <span id="total-score">0</span>
-
-        </div>
-
-        <div class="question" id="quiz-area">
-
-            <div class="quiz-container" id="quiz">
-                 The question goes here!!
-            </div>
-
-            <div class="option-container">
-                <button class="option-1" id="1">Option1</button>
-                <button class="option-2" id="2">Option2</button>
-                <button class="option-3" id="3">Option3</button>
-                <button class="option-4" id="4">Option4</button>
-
-            </div>
-
-            <div class="mov-sec">
-                <button class="previous-tab" id="prev">PREVIOUS</button>
-                <button class="next-tab" id="next">NEXT</button>
-                <button class="submit-tab" id="submit">SUBMIT</button>
-
-            </div>
-             
-             
-        </div>
+        1.  Javascript is an _______ language? <hr>
+        <input type="radio" name="question1" >script<br>
+        <input type="radio" name="question1">procedural<br>
+        <input type="radio" name="question1" id="correct3">object-oriented<br>
+        <input type="radio" name="question1">None of the above<br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+    <div class="quiz">
+        2.  JavaScript ignores?<hr>
+        <input type="radio" name="question2" >newlines<br>
+        <input type="radio" name="question2">tabs<br>
+        <input type="radio" name="question2" >spaces<br>
+        <input type="radio" name="question2"id="correct4">All of the above<br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+    <div class="quiz">
+        3.  Which symbol is used separate JavaScript statements? <hr>
+        <input type="radio" name="question3" id="correct1">Semicolon <br>
+        <input type="radio" name="question3">Comma <br>
+        <input type="radio" name="question3" >Colon<br>
+        <input type="radio" name="question3">Hyphen <br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+    <div class="quiz">
+        4.  Which JavaScript keyword is used to declare a variable <hr>
+        <input type="radio" name="question4" >Var<br>
+        <input type="radio" name="question4" id="correct2">var<br>
+        <input type="radio" name="question4" >Let<br>
+        <input type="radio" name="question4">None of the above<br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+    <div class="quiz">
+        5.  In JavaScript, single line comment begins with ___ <hr>
+        <input type="radio" name="question5" id="correct1">//<br>
+        <input type="radio" name="question5">/*<br>
+        <input type="radio" name="question5" >$<br>
+        <input type="radio" name="question5">None of the above<br>
+        <button class="next" onclick="next(1)">NEXT</button>
     </div>
     <script src="assets/JS/main.js"></script>
 </body>
