@@ -152,8 +152,48 @@ prevBtn.addEventListener("click",prev);
 nextBtn.addEventListener("click",next);
 submitBtn.addEventListener("click",submit);
 
+const lastQuiz =question.length-1;
+//function to display questions
+function displayQuiz(){
+    let qn = myQuiz[currentQuestion];
+    myQuiz.innerHTML = "<p>"+qn.myQuiz +"</p>";
+    option1.innerHTML = qn.option1;
+    option2.innerHTML = qn.option2;
+    option3.innerHTML = qn.option3;
+    option4.innerHTML = qn.option4;
+}
+
 
 // function to begin the quiz
+
+/*function startQuiz(){
+    currentQuestion = 0;
+    totalScore.innerHTML=myQuiz.length;
+    quizText.innerHTML =myQuiz[currentQuestion].question;
+    option1.innerHTML =myQuiz[currentQuestion].o
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function showQuiz(quiz,quizContainer){
     var output = [];
@@ -218,11 +258,4 @@ showQuiz(quiz, quizContainer);
  submitButton.onclick = function(){
 	showResults(quiz, quizContainer, resultsContainer);
 }
-
-//get elements from html
-
-var quizContainer = document.getElementById('quiz');
-var resultsContainer = document.getElementById('result');
-var submitButton = document.getElementById('submit');
-
-generateQuiz(myQuiz,quizContainer,resultsContainer, submitButton);
+*/
