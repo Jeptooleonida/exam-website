@@ -155,107 +155,10 @@ submitBtn.addEventListener("click",submit);
 const lastQuiz =question.length-1;
 //function to display questions
 function displayQuiz(){
-    let qn = myQuiz[currentQuestion];
+    let question= myQuiz[currentQuestion];
     myQuiz.innerHTML = "<p>"+qn.myQuiz +"</p>";
     option1.innerHTML = qn.option1;
     option2.innerHTML = qn.option2;
     option3.innerHTML = qn.option3;
     option4.innerHTML = qn.option4;
 }
-
-
-// function to begin the quiz
-
-/*function startQuiz(){
-    currentQuestion = 0;
-    totalScore.innerHTML=myQuiz.length;
-    quizText.innerHTML =myQuiz[currentQuestion].question;
-    option1.innerHTML =myQuiz[currentQuestion].o
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function showQuiz(quiz,quizContainer){
-    var output = [];
-    var answers;
-
-
-for (var i=0; i<quiz.length; i++){
-    answers = [];
-
-for (letter in quiz[i].answers){
-        answers.push(
-            'label'
-                + '<input type="radio" name="question'+i+'" value="'+letter+'">'
-                + letter + ': '
-                + quiz[i].answers[letter]
-
-            + '</label>'
-
-        );
-    
-    }
-
-    output.push(
-        '<div class = "question">' + quiz[i].question + '</div'
-        + '<div class="answers">' + answers.join('') + '</div>'
-
-    );
-}
-quizContainer.innerHTML = output.join('');
-
-
-
-}
-
-showQuiz(quiz, quizContainer);
-
-// function to calculate the result on quiz
- function result(quiz,quizContainer,resultContainer){
-     var answerContainer = quizContainer.querySelectorAll('.answers')
-
-     var userAnswer = '';
-     var numCorrect = 0;
-
-
-
-   for (var i=0; i<quiz.length; i++){
-       userAnswer = (answerContainer[i].querySelector('input[name=quiz '+i+']:checked')||{}).value;
-
-
-       if (userAnswer === quiz[i].correctAnswer){
-           numCorrect++;
-           answerContainer[i].style.color = 'blue';
-       }
-       else{
-           answerContainer[i].style.color = 'red';
-       }
-   }
-   resultContainer.innerHTML = numCorrect + 'out of' +quiz.length;
-
- }
- // show results after submitting the questions
- submitButton.onclick = function(){
-	showResults(quiz, quizContainer, resultsContainer);
-}
-*/
