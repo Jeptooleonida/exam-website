@@ -6,17 +6,10 @@
   
 }
 body{
-    background-color: rgb(188, 194, 193);
+    background-color: rgb(208, 247, 240);
 }
-.question{
-    align-items: center;
-    width: 50vw;
-    height: 70vh;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(10, 10, 10);
-    margin-left: 200px;
-    margin-right: 200px;
-
+.question-area{
+    border: 1px solid red;
 }
 .option-container{
     box-sizing: border-box;
@@ -36,6 +29,12 @@ body{
     width: 50%;
     margin-left: 250px;
     
+}
+p{
+    text-align: center;
+    color: rgb(19, 18, 18);
+    font-weight: 600;
+    font-size: 20px;
 }
 input{
     align-items: center;
