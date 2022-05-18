@@ -1,4 +1,20 @@
-var myQuiz =[
+// create variables
+const prevBtn = document.getElementById("prev");
+const nextBtn = document.getElementById("next");
+const submitBtn = document.getElementById("submit");
+const option1 = document.getElementById("1");
+const option2 = document.getElementById("2");
+const option3 = document.getElementById("3");
+const option4 = document.getElementById("4");
+const userScore = document.getElementById("user-score");
+const totalScore = document.getElementById("total-score");
+const quizText = document.getElementById("quiz");
+
+// define variables
+let currentQuestion = 0;
+let score = 0;
+
+let myQuiz =[
     {
         question: " Javascript is an _______ language?",
 
@@ -130,6 +146,8 @@ var myQuiz =[
     }
 
 ];
+
+
 
 // PLACE THE FUNCTIONS HERE
 
