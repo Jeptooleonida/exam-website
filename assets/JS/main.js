@@ -19,130 +19,130 @@ let myQuiz =[
         question: " Javascript is an _______ language?",
 
         answers: {
-            a: 'script',
-            b: 'procedural',
-            c: 'object-oriented',
-            d: 'None of the above'
+            option1: 'script',
+            option2: 'procedural',
+            option3: 'object-oriented',
+            option4: 'None of the above'
 
         },
-        correctAnswer:'c' 
+        correctAnswer:'option3'
     },
 
     {
         question: " Which is the correct syntax to call an external JavaScript file in the current HTML document?",
 
         answers: {
-            a: '<script link=" jsfile.js"></script>',
-            b: '<script href=" jsfile.js"></script>',
-            c: '<import src=" jsfile.js"></import>',
-            d: '<script src="jsfile.js"></script>'
+            option1: '<script link=" jsfile.js"></script>',
+            option2: '<script href=" jsfile.js"></script>',
+            option3: '<import src=" jsfile.js"></import>',
+            option4: '<script src="jsfile.js"></script>'
 
         },
-        correctAnswer:'d' 
+        correctAnswer:'option4' 
     },
 
     {
         question: " JavaScript ignores?",
 
         answers: {
-            a: 'newlines',
-            b: 'All of the above',
-            c: 'tabs',
-            d: 'spaces'
+            option1: 'newlines',
+            option2: 'All of the above',
+            option3: 'tabs',
+            option4: 'spaces'
 
         },
-        correctAnswer:'b' 
+        correctAnswer:'option2' 
     },
 
     {
         question: " JavaScript code can be written in ____.",
 
         answers: {
-            a: 'JavaScript file (.js file)',
-            b: 'HTML document directly',
-            c: 'In style sheets (.css file)',
-            d: 'JavaScript file and in HTML document directly'
+            option1: 'JavaScript file (.js file)',
+            option2: 'HTML document directly',
+            option3: 'In style sheets (.css file)',
+            option4: 'JavaScript file and in HTML document directly'
 
         },
-        correctAnswer:'d' 
+        correctAnswer:'option4' 
     },
 
     {
         question: " JWhich symbol is used separate JavaScript statements?",
 
         answers: {
-            a: 'Semicolon (;)',
-            b: 'Comma (,)',
-            c: 'Colon (:)',
-            d: 'Hyphen (_)'
+            option1: 'Semicolon (;)',
+            option2: 'Comma (,)',
+            option3: 'Colon (:)',
+            option4: 'Hyphen (_)'
 
         },
-        correctAnswer:'a' 
+        correctAnswer:'option1' 
     },
 
     {
         question: " Which JavaScript method is used to access an HTML element by id?",
 
         answers: {
-            a: 'getElement(id)',
-            b: 'elementById(id)',
-            c: 'getElementById(id)',
-            d: 'getElementById()'
+            option1: 'getElement(id)',
+            option2: 'elementById(id)',
+            option3: 'getElementById(id)',
+            option4: 'getElementById()'
 
         },
-        correctAnswer:'c' 
+        correctAnswer:'option3' 
     },
 
     {
         question: " Which JavaScript method is used to write HTML output?",
 
         answers: {
-            a: 'console.log()',
-            b: 'document.writeHTML()',
-            c: 'document.output()',
-            d: 'document.write()'
+            option1: 'console.log()',
+            option2: 'document.writeHTML()',
+            option3: 'document.output()',
+            option4: 'document.write()'
 
         },
-        correctAnswer:'d' 
+        correctAnswer:' option4' 
     },
 
     {
         question: "  Which JavaScript method is used to write into an alert box?",
 
         answers: {
-            a: 'window.alertContent()',
-            b: 'window.alertHTML()',
-            c: 'window.alertBox()',
-            d: 'window.alert()'
+            option1: 'window.alertContent()',
+            option2: 'window.alertHTML()',
+            option3: 'window.alertBox()',
+            option4: 'window.alert()'
 
         },
-        correctAnswer:'d' 
+        correctAnswer:'option4' 
     },
 
     {
         question: " Which JavaScript keyword is used to declare a variable?",
 
         answers: {
-            a: 'Var',
-            b: 'var',
-            c: 'Let',
-            d: 'None of the above'
+            option1: 'Var',
+            option2: 'var',
+            option3: 'Let',
+            option4: 'None of the above'
 
         },
-        correctAnswer:'b' 
+        correctAnswer:'option2' 
     },
 
     {
         question: "  In JavaScript, single line comment begins with ___.",
 
         answers: {
-            a: '//',
-            b: '/*',
-            c: '$',
-            d: 'None of the above'
+            option1: '//',
+            option2: '/*',
+            option3: '$',
+            option4: 'None of the above'
 
         },
-        correctAnswer:'a' 
+        correctAnswer:'option1' 
     }
 
 ];
