@@ -147,9 +147,13 @@ let myQuiz =[
 
 ];
 
+// onclick events
+prevBtn.addEventListener("click",prev);
+nextBtn.addEventListener("click",next);
+submitBtn.addEventListener("click",submit);
 
 
-// PLACE THE FUNCTIONS HERE
+// function to begin the quiz
 
 function showQuiz(quiz,quizContainer){
     var output = [];
