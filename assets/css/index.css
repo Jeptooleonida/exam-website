@@ -6,10 +6,38 @@
   
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(188, 194, 193);
 }
 .question{
-    background-color: rgb(221, 221, 217);
+    align-items: center;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(10, 10, 10);
+    margin-left: 200px;
+    margin-right: 200px;
 
+}
+.option-container{
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.option-container button{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.option{
+    margin-right: 50px;
+}
+.mov-sec{
+    display: flex;
+    width: 50%;
+    margin-left: 250px;
+    
+}
+input{
+    align-items: center;
+    text-align: left;
 }
