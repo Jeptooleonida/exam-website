@@ -200,5 +200,7 @@ showQuiz(quiz, quizContainer);
 //get elements from html
 
 var quizContainer = document.getElementById('quiz');
-var resultsContainer = document.getElementById('results');
+var resultsContainer = document.getElementById('result');
 var submitButton = document.getElementById('submit');
+
+generateQuiz(myQuiz,quizContainer,resultsContainer, submitButton);

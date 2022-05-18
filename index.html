@@ -9,17 +9,14 @@
 </head>
 <body>
     <div class="quiz">
-        <div class="heading">
-            <p>Congratulations.</p>
-            <P>You have completed the course work</P>
-        </div>
-
-        <div class="takequiz-btn">
-            <button>TAKE QUIZ</button>
+        <div class="score">
+           <span id="user-score">0</span>
+           <span>/</span>
+           <span id="total-score">0</span>
 
         </div>
 
-        <div class="question">
+        <div class="question" id="quiz-area">
 
             <div class="quiz-container" id="quiz">
                  The question goes here!!
@@ -33,26 +30,16 @@
 
             </div>
 
-            <div class="navigation-sec">
-                <button class="previous-tab">PREVIOUS</button>
-                <button class="next-tab">NEXT</button>
+            <div class="mov-sec">
+                <button class="previous-tab" id="prev">PREVIOUS</button>
+                <button class="next-tab" id="next">NEXT</button>
+                <button class="submit-tab" id="submit">SUBMIT</button>
 
-             </div>
+            </div>
              
-             <div class="submit-btn" id="submit">
-                 <button class="submit-tab">SUBMIT</button>
-
-             </div>
-             <div class="result-tab" id="result">
-                 <button class="result-btn">RESULT</button>
-
-             </div>
-
+             
         </div>
-
-
     </div>
     <script src="assets/JS/main.js"></script>
-
 </body>
 </html>
