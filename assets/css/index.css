@@ -9,7 +9,7 @@ body{
     background-color: rgb(208, 247, 240);
 }
 .question-area{
-    border: 1px solid red;
+    border: 1px solid rgb(26, 25, 25);
 }
 .option-container{
     box-sizing: border-box;
@@ -39,4 +39,16 @@ p{
 input{
     align-items: center;
     text-align: left;
+}
+.submit-btn{
+  
+    background-color: beige;
+    border: 1px solid blue;
+}
+
+.submit-btn button{
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+
 }
